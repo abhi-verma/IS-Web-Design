@@ -7,7 +7,7 @@ body {
     overflow: hidden;
     background-color: #7db02a;
     border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px; 
+    border-bottom-right-radius: 2px;
     top: 0;
     width: 100%;
     transition: 1s;
@@ -88,7 +88,7 @@ body {
     margin-right: 10%;
     margin-top: 1.75%;
     padding: 2%;
-    
+
 }
 
 .btn{
@@ -140,37 +140,29 @@ body {
         .thumbnail img:hover {
             box-shadow: 0 0 2px 1px rgba(82, 126, 31, 0.5);
         }
+
 @media screen and (max-width: 600px) {
+  .thumbnail {
+    width:42%;
+    text-align: center;
+  }
 
-    .thumbnail {
-        width:42%;
-        text-align: center;
-    }
-     #welcomemessage{
-         text-align: center;
-     }
+  #welcomemessage {
+    text-align: center;
+  }
 
-     .topnav {
+  .topnav {
     height: 53px;
-}
+  }
 
-    .topnav a {
-        
-        font-size: 9.375px;
-    }
+  .topnav a {
+    /* font-size: 9.375px; */
+    font-size: 60%;
+  }
 
-        
-        .topnav .home{
-            font-size: 15px;
-            
-        }
-
-
-
-
-
-
-
+  .topnav .home{
+    font-size: 15px;
+  }
 }
 
 

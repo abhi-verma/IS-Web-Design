@@ -1,99 +1,61 @@
 <!DOCTYPE html>
 <html>
+<!-- head tag begins -->
 <head>
     <title>GoCamping</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+<!-- head tag ends -->
+
+<!-- body tag begins -->
 <body>
-    <div class="topnav" id="myTopnav" style="display:none">
+    <div class="topnav" id="myTopnav">
         <a href="#home" class="home active">GoCamping</a>
         <a href="#" style="float:right">Contact Us</a>
         <a href="#" style="float:right">Sign Up</a>
-        <a href="#" style="float:right">Login</a>
-        
-        
-        <!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+        <a href="#" style="float:right">Legin</a>
     </div>
 
-    <div id="welcomemessage" style="display:none">
+    <div id="welcomemessage">
         <h2>Welcome to GoCamping</h2>
         <br>
-        <h4>Camper Kyle will help you with your adventures.</h4> 
+        <h4>Camper Kyle will help you with your adventures.</h4>
         <div class="btn">Add New Campground</div>
 
 
     </div>
 
-    <div id="campgrounds" style="display:none">
-        <div class="thumbnail" style="display:none">
+    <div id="campgrounds">
+        <div class="thumbnail">
             <h2 class="camp-name">Falkreath</h2>
             <img src="images/Falkreath.jpg" alt="Image" />
             <div class="btn">Learn more</div>
         </div>
-        <div class="thumbnail" style="display:none">
+        <div class="thumbnail">
             <h2 class="camp-name">Skellige</h2>
             <img src="images/skellig.jpg" alt="Image" />
             <div class="btn">Learn more</div>
         </div>
-        <div class="thumbnail" style="display:none">
+        <div class="thumbnail">
             <h2 class="camp-name">Hyrule</h2>
             <img src="images/zelda.jpg">
             <div class="btn">Learn more</div>
         </div>
-        <div class="thumbnail" style="display:none">
+        <div class="thumbnail">
             <h2 class="camp-name">Red Drifts</h2>
             <img src="images/song_s edge.jpg" alt="Image" />
             <div class="btn">Learn more</div>
         </div>
-        <div class="thumbnail" style="display:none">
+        <div class="thumbnail">
             <h2 class="camp-name">Crestwood</h2>
             <img src="images/crestwood.jpg" alt="Image" />
             <div class="btn">Learn more</div>
         </div>
-        
     </div>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous">
 
-</script>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
-<script>
-
-    var fadeintime = 300;
-    var delaytime = fadeintime;
-    var delayincrement = 50;
-
-    $(".topnav").fadeIn(fadeintime, function () {
-        $("#welcomemessage").fadeIn(fadeintime, function () {
-            $("#campgrounds").fadeIn(fadeintime, function () {
-                    
-                        $(".thumbnail").each(function () {
-                            $(this).delay(delaytime).fadeIn(fadeintime);
-                            delaytime += fadeintime;
-                        })
-
-                        
-
-                    
-            })
-        })
-
-    });
-
-</script>
+    <div class="footer">
+      <p>&copy; Developed by Team 16</p>
+    </div>
 </body>
 </html>
