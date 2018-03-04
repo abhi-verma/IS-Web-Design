@@ -4,6 +4,8 @@ body {
     background: white;
 }
 
+
+/* Styling for navbar */
 .topnav {
     overflow: hidden;
     background-color: #B0EBBD;
@@ -17,38 +19,37 @@ body {
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  border-radius: 2px;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-        .topnav a:hover {
-            /* background-color: #98d110; */
-            color: #00A99D;
-        }
+/* Adding hover effect */
+.topnav a:hover {
+    color: #00A99D;
+}
 
-        .topnav .home{
-            font-size: 27.2px;
-            padding-top: 15px;
-        }
+.topnav .home {
+    font-size: 27.2px;
+    padding-top: 15px;
+}
 
 .active {
-    /* background-color: #395C0B; */
     color: white;
     padding-right: 20px;
 }
-
-
 
 .topnav .icon {
     display: none;
 }
 
+
+/* Styling for welcome message */
 #welcomemessage{
     width: 67%;
     height:auto;
@@ -64,28 +65,31 @@ body {
 }
 
 #logo {
-  height: 37px;
-  width: 143px;
+    height: 37px;
+    width: 143px;
 }
 
-    #welcomemessage h2{
-        margin-top: 2%;
-        margin-bottom: 0.76%;
-        font-size: 25px;
-        color: white;
-    }
+#welcomemessage h2{
+    margin-top: 2%;
+    margin-bottom: 0.76%;
+    font-size: 25px;
+    color: white;
+}
 
-    #welcomemessage h4{
-        margin-top: 0.76%;
-        font-size: 15.63px;
-        margin-bottom: 2%;
-    }
-    #welcomemessage .btn{
-        font-size: 15.63px;
-        margin-top: 1%;
-        margin-bottom: 0;
-    }
+#welcomemessage h4{
+    margin-top: 0.76%;
+    font-size: 15.63px;
+    margin-bottom: 2%;
+}
 
+#welcomemessage .btn{
+    font-size: 15.63px;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+
+/* Styling for campgrounds */
 #campgrounds {
     width: 80%;
     height: auto;
@@ -93,7 +97,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
-
 }
 
 .btn{
@@ -108,13 +111,13 @@ body {
     margin-bottom: 6.5px;
 }
 
-    .btn:hover{
-        background-color: white;
-        color: #b6ba2d;
-        border: 1px solid #b6ba2d;
-    }
+.btn:hover {
+    background-color: white;
+    color: #b6ba2d;
+    border: 1px solid #b6ba2d;
+}
 
-.camp-name{
+.camp-name {
     color: #233C00;
     margin-top: 19px;
     margin-bottom: 11.875px;
@@ -136,78 +139,51 @@ body {
     margin-bottom: 32px;
 }
 
-    .thumbnail img {
-        border: 0.5px solid #233C00; /* Gray border */
-        border-radius: 4px; /* Rounded border */
-        /*padding: 5px; /* Some padding */
-        width: 95%; /* Set a small width */
-        height: auto;
-    }
-        .thumbnail img:hover {
-            box-shadow: 0 0 2px 1px rgba(82, 126, 31, 0.5);
-        }
+.thumbnail img {
+    border: 0.5px solid #233C00;
+    border-radius: 4px;
+    width: 95%;
+    height: auto;
+}
 
-        .footer {
-            overflow: hidden;
-            background-color: #B0EBBD;
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-            top: 0;
-            width: 100%;
-            text-align: center;
-            height: 50px;
-            margin-top: 10px;
-            font-weight: bold;
-        }
+.thumbnail img:hover {
+    box-shadow: 0 0 2px 1px rgba(82, 126, 31, 0.5);
+}
 
-
-@media screen and (max-width: 600px) {
-  .thumbnail {
-    width:42%;
+.footer {
+    overflow: hidden;
+    background-color: #B0EBBD;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    top: 0;
+    width: 100%;
     text-align: center;
-  }
-
-  #welcomemessage {
-    text-align: center;
-  }
-
-  .topnav {
-    height: 53px;
-  }
-
-  .topnav a {
-    font-size: 9.375px;
-  }
-
-  .topnav .home{
-    font-size: 15px;
-  }
+    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 
-/*
+/* Adding Responsiveness via media queries */
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
+    .thumbnail {
+        width:42%;
+        text-align: center;
     }
-    .topnav a.icon {
-        float: right;
-        display: block;
+
+    #welcomemessage {
+        text-align: center;
+    }
+
+    .topnav {
+        height: 53px;
+    }
+
+    .topnav a {
+        font-size: 9.375px;
+    }
+
+    .topnav .home{
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
-        .topnav.responsive .icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-        .topnav.responsive a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-}
-    */
