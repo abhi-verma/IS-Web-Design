@@ -182,6 +182,10 @@ body {
         text-align: center;
     }
 
+    #mas-img {
+      float: none;
+    }
+
     #welcomemessage {
         text-align: center;
 
