@@ -49,6 +49,15 @@ body {
 }
 
 
+/* Styling for mascot */
+#mas-img {
+  float: left;
+  width: 25%;
+  height: 2%;
+  margin-left: -2%;
+  margin-top: 3%;
+}
+
 /* Styling for welcome message */
 #welcomemessage{
     width: 67%;
@@ -99,7 +108,7 @@ body {
     padding: 2%;
 }
 
-.btn{
+.btn {
     background-color: #233C00;
     display: inline-block;
     padding: 1%;
@@ -109,6 +118,7 @@ body {
     border: 1px solid #b6ba2d;
     margin-top: 10px;
     margin-bottom: 6.5px;
+    /* margin-left: 23%; */
 }
 
 .btn:hover {
@@ -174,7 +184,7 @@ body {
 
     #welcomemessage {
         text-align: center;
- 
+
     }
     #welcomemessage h2{
         padding-bottom: 6px;
