@@ -64,7 +64,7 @@ body {
     height:auto;
     display: block;
     border-color: black;
-    background-color: #A2CE63;
+    background-color: #438a65;
     color: #233C00;
     margin-left:12%;
     margin-right:10%;
@@ -82,13 +82,15 @@ body {
     margin-top: 2%;
     margin-bottom: 0.76%;
     font-size: 25px;
-    color: white;
+    color: #e0ac74;
 }
 
 #welcomemessage h4{
     margin-top: 0.76%;
     font-size: 15.63px;
     margin-bottom: 2%;
+    color: #f3e3c8;
+    font-weight: normal;
 }
 
 #welcomemessage .btn{
@@ -109,7 +111,7 @@ body {
 }
 
 .btn {
-    background-color: #233C00;
+    background-color: #82AF98;
     display: inline-block;
     padding: 1%;
     border-radius: 4px;
@@ -128,13 +130,13 @@ body {
 }
 
 .camp-name {
-    color: #233C00;
+    color: #438A65;
     margin-top: 19px;
     margin-bottom: 11.875px;
 }
 
 .thumbnail {
-    background: #f6e8b1;
+    background: #F3E3C8;
     position: relative;
     width: 20%;
     height: auto;
