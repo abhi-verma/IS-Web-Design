@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Georgia;
     background: #DCFFE3;
 }
@@ -52,17 +53,17 @@ body {
 /* Styling for mascot */
 #mas-img {
   float: left;
-  width: 25%;
+  width: 20%;
   height: 2%;
   margin-left: -2%;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 /* Styling for welcome message */
 #welcomemessage{
     width: 67%;
     height:auto;
-    display: block;
+    display: inline-block;
     border-color: black;
     background-color: #438a65;
     color: #233C00;
@@ -214,4 +215,11 @@ body {
     h4{
         font-size: 15px;
     }
+	
+	#mas-img {
+  
+  width: 50%;
+  height: auto;
+  
+}
 }
